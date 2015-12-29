@@ -16,6 +16,9 @@
     </div>
     <div id="navbar">
       <ul class="nav navbar-nav">
+        <% if can? :create, Project %>
+          <li><%= link_to 'Add Project', new_project_path %></li>
+        <% end %>
       </ul>
 
       <ul class="nav navbar-nav pull-right">

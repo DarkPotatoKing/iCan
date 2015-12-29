@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'projects/new'
+
+  get 'projects/create'
+
+  get 'projects/new'
+
+  get 'projects/create'
+
   get 'projects/index'
 
   get 'pages/index'
